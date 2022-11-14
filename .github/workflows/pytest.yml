@@ -15,4 +15,4 @@ jobs:
           pip install flake8 pytest
       - name: run pytest
         run: |
-          python3 -m pytest
+          python3 -m pytest /example
