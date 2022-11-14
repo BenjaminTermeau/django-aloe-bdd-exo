@@ -15,4 +15,4 @@ jobs:
           pip install flake8 pytest flake8-bandit
       - name: run bandit
         run: |
-          python3 -m flake8-bandit
+          python3 -m flake8
